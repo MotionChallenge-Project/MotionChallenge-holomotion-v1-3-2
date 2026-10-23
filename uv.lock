@@ -83,7 +83,7 @@ requires-dist = [
 ]
 
 [[package]]
-name = "motion-challenge-holomotion"
+name = "motion-challenge-holomotion-v1-3-2"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [

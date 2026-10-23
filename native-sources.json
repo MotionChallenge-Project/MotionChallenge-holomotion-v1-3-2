@@ -1,0 +1,31 @@
+{
+  "source_commit": "799302097ac60971db049f3861d3e67c96bffd32",
+  "version": "v1.3.2",
+  "files": {
+    "deployment/unitree_g1_ros2_29dof/src/humanoid_policy/config.py": "3e49a0f9fcbe42ff61dfc5e209412ac2c4136dc975902ec2d293fdc05e61b1bc",
+    "deployment/unitree_g1_ros2_29dof/src/humanoid_policy/obs_builder/__init__.py": "b3edb683d8833b087d9e384f4eb10ef12c9ab3176cfe8df5b7fe72a22ffedecd",
+    "deployment/unitree_g1_ros2_29dof/src/humanoid_policy/obs_builder/obs_builder.py": "10ccbef3e09573f5812171db6d976b7142be314ac442d97574a95b16442e06da",
+    "deployment/unitree_g1_ros2_29dof/src/humanoid_policy/observation_evaluator.py": "882014d0e1a9631f3ba6230912cf127485879cfda77844fd093e4f0fe1a60d93",
+    "deployment/unitree_g1_ros2_29dof/src/humanoid_policy/offline_motion_reference.py": "128508067f864cc1ab4b896ae6b9670a627f33de48c9eaaa91f73a8012655b47",
+    "deployment/unitree_g1_ros2_29dof/src/humanoid_policy/onnx_policy.py": "6082f01131439b14adb8b4e28ff69ba392249a49f3a6507f280389085d5c7256",
+    "deployment/unitree_g1_ros2_29dof/src/humanoid_policy/policy_node_29dof.py": "c81f9221879c719806aa4bd8ea1c3ac0244151bc4f1791fa0e385e560bc7d294",
+    "deployment/unitree_g1_ros2_29dof/src/humanoid_policy/policy_runtime.py": "0bd25ebfc1fa7ecec5e4c80c8b1eddc6ed83bab0c42ecae58533522dc8c16eca",
+    "deployment/unitree_g1_ros2_29dof/src/humanoid_policy/reference_contract.py": "daadb4f97692266610adc196d6e87058aa77c17bcbac07590dbd9b71f2f1262f",
+    "deployment/unitree_g1_ros2_29dof/src/humanoid_policy/utils/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "deployment/unitree_g1_ros2_29dof/src/humanoid_policy/utils/command_helper.py": "a06575599538967d24459645b51ac63aaab498ddb9ee4c268d5fb3b977c9a7df",
+    "deployment/unitree_g1_ros2_29dof/src/humanoid_policy/utils/maths.py": "8ef1ccd3ecdadf3ad05d755ff0dd1c131f2b6623adfe4ae225e851be859898b9",
+    "deployment/unitree_g1_ros2_29dof/src/humanoid_policy/utils/motor_crc.py": "05e92dcf1a567314b826adf7b5b03f4081fe1e219344b7516b90d177c5960e63",
+    "deployment/unitree_g1_ros2_29dof/src/humanoid_policy/utils/remote_controller_filter.py": "30602e351cac424ae355f728de1a5fb2140d5e50f18163ef491b22bed7cf9f06",
+    "deployment/unitree_g1_ros2_29dof/src/humanoid_policy/utils/rotation_helper.py": "8790d71d9093d5a939f4ea3cd37d0775817701badd88355fe99539e9d9d9040e",
+    "deployment/unitree_g1_ros2_29dof/src/humanoid_policy/utils/rotations.py": "2a05c3833397fb1db4d5ed72ed430bc443a8b9bb07898a4bab27a4447261e5d6"
+  },
+  "checkpoint_config_sha256": "21f171e17426484d5de45ebf3a55d43ffa32f56500ea636056839670ffb96972",
+  "onnx_metadata": {
+    "action_scale": "0.548,0.548,0.548,0.351,0.351,0.439,0.548,0.548,0.439,0.351,0.351,0.439,0.439,0.439,0.439,0.439,0.439,0.439,0.439,0.439,0.439,0.439,0.439,0.439,0.439,0.075,0.075,0.075,0.075",
+    "rope_max_seq_len": "8192",
+    "joint_damping": "2.558,2.558,2.558,6.309,6.309,1.814,2.558,2.558,1.814,6.309,6.309,0.907,0.907,1.814,1.814,0.907,0.907,1.814,1.814,0.907,0.907,0.907,0.907,0.907,0.907,1.068,1.068,1.068,1.068",
+    "joint_stiffness": "40.179,40.179,40.179,99.098,99.098,28.501,40.179,40.179,28.501,99.098,99.098,14.251,14.251,28.501,28.501,14.251,14.251,28.501,28.501,14.251,14.251,14.251,14.251,14.251,14.251,16.778,16.778,16.778,16.778",
+    "default_joint_pos": "-0.312,-0.312,0.000,0.000,0.000,0.000,0.000,0.000,0.100,0.669,0.669,0.200,0.200,-0.363,-0.363,0.200,-0.200,0.000,0.000,0.000,0.000,0.600,0.600,0.000,0.000,0.000,0.000,0.000,0.000",
+    "joint_names": "left_hip_pitch_joint,right_hip_pitch_joint,waist_yaw_joint,left_hip_roll_joint,right_hip_roll_joint,waist_roll_joint,left_hip_yaw_joint,right_hip_yaw_joint,waist_pitch_joint,left_knee_joint,right_knee_joint,left_shoulder_pitch_joint,right_shoulder_pitch_joint,left_ankle_pitch_joint,right_ankle_pitch_joint,left_shoulder_roll_joint,right_shoulder_roll_joint,left_ankle_roll_joint,right_ankle_roll_joint,left_shoulder_yaw_joint,right_shoulder_yaw_joint,left_elbow_joint,right_elbow_joint,left_wrist_roll_joint,right_wrist_roll_joint,left_wrist_pitch_joint,right_wrist_pitch_joint,left_wrist_yaw_joint,right_wrist_yaw_joint"
+  }
+}
